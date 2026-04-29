@@ -1,0 +1,25 @@
+{
+  "name": "monkey-lib",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/*.js --bundle --minify --format=esm --outdir=dist --out-extension:.js=.mjs --loader:.js=jsx",
+    "watch": "esbuild src/*.js --watch --bundle --minify --format=esm --outdir=dist --out-extension:.js=.mjs --loader:.js=jsx"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/material": "9.0.0",
+    "@xyflow/react": "12.10.2",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.0"
+  }
+}
