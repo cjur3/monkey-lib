@@ -1,7 +1,10 @@
 {
   "id": "monkey-lib",
   "title": "MonkeyLib",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -9,5 +12,5 @@
   "flags": {
     "canUpload": true
   },
-  "description": ""
+  "description": "Monkey Lib for usage with my future modules to increase cachability"
 }
